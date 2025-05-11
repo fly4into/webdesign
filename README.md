@@ -1,1 +1,39 @@
 # webdesign
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나미야 잡화점의 기적 - 책 소개</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📖 나미야 잡화점의 기적</h1>
+      <p>히가시노 게이고 지음</p>
+    </header>
+
+    <section class="book-section">
+      <img src="namiyashop.jpg" alt="나미야 잡화점의 기적 책 표지">
+      <div class="book-details">
+        <h2>책 소개</h2>
+        <p>
+          버려진 낡은 잡화점에서 벌어지는 기적 같은 이야기.
+          밤이면 우체통으로 도착하는 고민 상담 편지, 그리고 답장을 쓰는 세 청년들.
+          과거와 현재, 그리고 사람들의 마음을 잇는 따뜻한 연결의 이야기입니다.
+        </p>
+        <ul>
+          <li><strong>출판사:</strong> 현대문학</li>
+          <li><strong>출판일:</strong> 2012년 3월</li>
+          <li><strong>장르:</strong> 미스터리, 휴먼 드라마</li>
+        </ul>
+        <a href="https://product.kyobobook.co.kr/detail/S000200550190" target="_blank">📚 교보문고에서 구매하기</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 나미야 잡화점의 기적 소개 페이지</p>
+    </footer>
+  </div>
+</body>
+</html>
