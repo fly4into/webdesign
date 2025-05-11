@@ -1,0 +1,72 @@
+body {
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #6a89cc;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.book-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.book-section img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details h2 {
+  color: #34495e;
+}
+
+.book-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-details li {
+  margin: 5px 0;
+}
+
+.book-details a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #38ada9;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #888;
+  font-size: 0.9em;
+}
